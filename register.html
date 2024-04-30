@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!-- style.css  -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	 crossorigin="anonymous">
+
+	<!-- fontawesome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+	 crossorigin="anonymous" />
+<script>
+function myFunction() {
+  alert("You Have Succesfully Log-out");
+}
+</script>
+	<title>DBTIKOY E-Commerce Website</title>
+</head>
+
+<body id="top">
+	<!-- ==============header menu section starts here============== -->
+	<section class="header_menu_class" id="header_menu_class">
+		<div class="container-fluid px-0 shadow">
+			<nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: black;">
+
+				<a class="navbar-brand pl-22" href="javascript:;" id="logoout">
+					<img src="assets\images\y2k.png" id="logo" class="img img-fluid" width="80px" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="main.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    
+                    <li class="nav-item" >
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Logout.html"><text onclick="myFunction()">Log-Out</text></a>
+                    </li>
+                </ul>
+                <div class="search mr-3" >
+                    <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
+                </div>
+                <div class="cart">
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <span class="badge badge-pill badge-primary">2</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!-- ============== Registration Form Section =============== -->
+
+
+    <section class="login-registration-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <!-- Register Form -->
+                    <div class="card mb-4">
+                        <div class="card-header text-center" style="color: black;">Register Your Account</div>
+
+                        <div class="card-body">
+                            <form id="register-form">
+                                <div class="form-group">
+                                    <label for="firstname">First Name:</label>
+                                    <input type="text" id="firstname" name="firstname" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastname">Last Name:</label>
+                                    <input type="text" id="lastname" name="lastname" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password:</label>
+                                    <input type="password" id="password" name="password" class="form-control" required>
+                                </div>
+                                <div class="form-group d-flex justify-content-center">
+                                <a href="main.html" class="btn btn-primary custom-btn">Submit</a>                                
+                            </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
